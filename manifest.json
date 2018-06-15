@@ -1,39 +1,26 @@
 {
-
-     "name": "Mały Holender",
-
-     "short_name": "Mały Holender",
-
-     "icons": [
-
-           {
-
-                "src": "images/icons/mh_192.png",
-
-                "sizes": "192×192",
-
-                "type": "image/png"
-
-            },
-
-           {
-
-                "src": "images/icons/mh_512.png",
-
-                "sizes": "512×512",
-
-                "type": "image/png"
-
-           }
-
-     ],
-
-     "start_url": "/index.html",
-
-     "display": "standalone",
-
-     "background_color": "#3E4EB8",
-
-      "theme_color": "#2F3BA2",
-
+  "short_name": "Mały Holender",
+  "name": "Mały Holender",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#333",
+  "theme_color": "#333",
+  "icons": [
+    {
+      "src": "/images/icons/mh_48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/images/icons/mh_96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/icons/mh_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "./index.html"
 }
