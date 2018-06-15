@@ -14,7 +14,7 @@ var filesToCache = [
 
        '/js/mh.js',
 
-       '/styles/mh.css',
+       '/css/mh.css',
 
        '/images/logoMH.svg'
        
