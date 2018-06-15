@@ -21,7 +21,7 @@ var filesToCache = [
 ];
 
 self.addEventListener('install', function (e) {
-
+'use strict';
       console.log('[ServiceWorker] Install');
 
       e.waitUntil(
@@ -39,7 +39,7 @@ self.addEventListener('install', function (e) {
 });
 
 self.addEventListener('activate', function (e) {
-
+'use strict';
       console.log('[ServiceWorker] Activate');
 
       e.waitUntil(
@@ -67,7 +67,7 @@ self.addEventListener('activate', function (e) {
 });
 
 self.addEventListener('fetch', function (e) {
-
+'use strict';
       console.log('[ServiceWorker] Fetch', e.request.url);
 
       e.respondWith(
